@@ -1,0 +1,36 @@
+/* english lang button */
+.btn-eng{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+/* chinese lang button */
+.btn-chi{
+    border-left: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+/* button group */
+.btn-group{
+    padding: 7px;
+}
+
+button{
+    background-color: #f1eeee;
+    color: #333;
+    border: .5px solid #333;
+    padding: 3px 15px;
+    font-size: 14px;
+    width: 90px;
+    text-align: center;
+}
+
+button:hover{
+    background-color: #e2dcdc;
+    transition: .3s;
+}
+.active{
+    color: #000;
+    background-color: #e2dcdc;
+}

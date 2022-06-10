@@ -1,0 +1,8 @@
+<div class="btn-group" role="group">
+    <button type="button" [ngClass]="{ 'active' : isValue == 1 }" (click)="english()" class="btn-eng">
+        <span>English</span>
+    </button>
+    <button type="button" [ngClass]="{ 'active' : isValue == 2 }" (click)="chinese()" class="btn-chi">
+        <span>中文</span>
+    </button>
+</div>
